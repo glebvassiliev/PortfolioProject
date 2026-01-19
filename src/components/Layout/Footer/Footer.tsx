@@ -2,18 +2,18 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="glass-effect mt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <footer className="border-t border-gray-900 mt-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-          <div className="text-gray-400 text-sm">
-            © {currentYear} Your Name. All rights reserved.
+          <div className="text-gray-600 text-sm font-light">
+            © {currentYear} Gleb Vassiliev
           </div>
-          <div className="flex space-x-6">
+          <div className="flex space-x-8">
             <a
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-primary-400 transition-colors duration-200"
+              className="text-gray-600 hover:text-white transition-colors duration-200"
               aria-label="GitHub"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -24,7 +24,7 @@ const Footer = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-primary-400 transition-colors duration-200"
+              className="text-gray-600 hover:text-white transition-colors duration-200"
               aria-label="LinkedIn"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -33,7 +33,7 @@ const Footer = () => {
             </a>
             <a
               href="mailto:your.email@example.com"
-              className="text-gray-400 hover:text-primary-400 transition-colors duration-200"
+              className="text-gray-600 hover:text-white transition-colors duration-200"
               aria-label="Email"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
