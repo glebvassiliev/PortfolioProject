@@ -23,14 +23,14 @@ const ContactSection = () => {
   return (
     <section className="py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-white tracking-tight">
+        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-cream tracking-tight">
           Contact
         </h2>
 
         <div className="space-y-12">
           {/* Contact Info */}
           <div className="space-y-8">
-            <p className="text-lg text-gray-400 leading-relaxed font-light text-center max-w-2xl mx-auto">
+            <p className="text-lg text-sage leading-relaxed font-light text-center max-w-2xl mx-auto">
               I'm always open to discussing new projects, creative ideas, or
               opportunities to be part of your visions.
             </p>
@@ -38,7 +38,7 @@ const ContactSection = () => {
             <div className="flex flex-wrap justify-center gap-8">
               <a
                 href="mailto:your.email@example.com"
-                className="text-gray-400 hover:text-white transition-colors font-light text-sm uppercase tracking-wider"
+                className="text-sage hover:text-cream transition-colors font-light text-sm uppercase tracking-wider"
               >
                 Email
               </a>
@@ -46,7 +46,7 @@ const ContactSection = () => {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors font-light text-sm uppercase tracking-wider"
+                className="text-sage hover:text-cream transition-colors font-light text-sm uppercase tracking-wider"
               >
                 LinkedIn
               </a>
@@ -54,7 +54,7 @@ const ContactSection = () => {
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors font-light text-sm uppercase tracking-wider"
+                className="text-sage hover:text-cream transition-colors font-light text-sm uppercase tracking-wider"
               >
                 GitHub
               </a>
@@ -71,7 +71,7 @@ const ContactSection = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-0 py-4 bg-transparent border-0 border-b border-gray-800 text-gray-300 placeholder-gray-600 focus:outline-none focus:border-gray-600 transition-colors font-light"
+                className="w-full px-0 py-4 bg-transparent border-0 border-b border-charcoal text-sage placeholder-charcoal focus:outline-none focus:border-sage transition-colors font-light"
                 placeholder="Name"
               />
             </div>
@@ -84,7 +84,7 @@ const ContactSection = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-0 py-4 bg-transparent border-0 border-b border-gray-800 text-gray-300 placeholder-gray-600 focus:outline-none focus:border-gray-600 transition-colors font-light"
+                className="w-full px-0 py-4 bg-transparent border-0 border-b border-charcoal text-sage placeholder-charcoal focus:outline-none focus:border-sage transition-colors font-light"
                 placeholder="Email"
               />
             </div>
@@ -97,14 +97,14 @@ const ContactSection = () => {
                 onChange={handleChange}
                 required
                 rows={6}
-                className="w-full px-0 py-4 bg-transparent border-0 border-b border-gray-800 text-gray-300 placeholder-gray-600 focus:outline-none focus:border-gray-600 transition-colors resize-none font-light"
+                className="w-full px-0 py-4 bg-transparent border-0 border-b border-charcoal text-sage placeholder-charcoal focus:outline-none focus:border-sage transition-colors resize-none font-light"
                 placeholder="Message"
               />
             </div>
 
             <button
               type="submit"
-              className="w-full px-8 py-4 border border-gray-800 text-gray-400 hover:text-white hover:border-gray-600 transition-colors font-light text-sm uppercase tracking-wider mt-8"
+              className="w-full px-8 py-4 border border-charcoal text-sage hover:text-cream hover:border-sage transition-colors font-light text-sm uppercase tracking-wider mt-8"
             >
               Send Message
             </button>

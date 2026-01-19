@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <section className="py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-white tracking-tight">
+        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-cream tracking-tight">
           Skills
         </h2>
 
@@ -27,14 +27,14 @@ const Skills = () => {
               key={category.title}
               className="space-y-6"
             >
-              <h3 className="text-xl font-light mb-6 text-gray-300 uppercase tracking-wider">
+              <h3 className="text-xl font-light mb-6 text-sage uppercase tracking-wider">
                 {category.title}
               </h3>
               <div className="space-y-3">
                 {category.skills.map((skill) => (
                   <div
                     key={skill}
-                    className="text-gray-400 font-light"
+                    className="text-sage/70 font-light"
                   >
                     {skill}
                   </div>

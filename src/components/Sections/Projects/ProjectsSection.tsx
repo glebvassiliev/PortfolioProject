@@ -43,7 +43,7 @@ const ProjectsSection = () => {
   return (
     <section className="py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-white tracking-tight">
+        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-cream tracking-tight">
           Projects
         </h2>
 
@@ -57,16 +57,16 @@ const ProjectsSection = () => {
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 {/* Project Image Placeholder */}
-                <div className="aspect-video bg-gray-800/50 border border-gray-800 flex items-center justify-center">
+                <div className="aspect-video bg-charcoal/50 border border-charcoal flex items-center justify-center">
                   <div className="text-6xl opacity-20 group-hover:opacity-30 transition-opacity duration-300">
                   </div>
                 </div>
 
                 <div className="space-y-6">
-                  <h3 className="text-3xl md:text-4xl font-light text-white tracking-tight">
+                  <h3 className="text-3xl md:text-4xl font-light text-cream tracking-tight">
                     {project.title}
                   </h3>
-                  <p className="text-lg text-gray-400 leading-relaxed font-light">
+                  <p className="text-lg text-sage leading-relaxed font-light">
                     {project.description}
                   </p>
 
@@ -75,7 +75,7 @@ const ProjectsSection = () => {
                     {project.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="px-4 py-1 text-sm text-gray-500 border border-gray-800 font-light"
+                        className="px-4 py-1 text-sm text-sage/70 border border-charcoal font-light"
                       >
                         {tech}
                       </span>
@@ -89,7 +89,7 @@ const ProjectsSection = () => {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-400 hover:text-white transition-colors font-light text-sm uppercase tracking-wider"
+                        className="text-sage hover:text-cream transition-colors font-light text-sm uppercase tracking-wider"
                       >
                         View Project →
                       </a>
@@ -99,7 +99,7 @@ const ProjectsSection = () => {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-400 hover:text-white transition-colors font-light text-sm uppercase tracking-wider"
+                        className="text-sage hover:text-cream transition-colors font-light text-sm uppercase tracking-wider"
                       >
                         GitHub →
                       </a>
