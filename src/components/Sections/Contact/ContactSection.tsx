@@ -44,7 +44,7 @@ const ContactSection = () => {
                   Email
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/gleb-vassiliev/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sage hover:text-cream transition-colors font-light text-sm uppercase tracking-wider"
@@ -52,7 +52,7 @@ const ContactSection = () => {
                   LinkedIn
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/glebvassiliev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sage hover:text-cream transition-colors font-light text-sm uppercase tracking-wider"

@@ -10,7 +10,7 @@ const Footer = () => {
           </div>
           <div className="flex space-x-8">
             <a
-              href="https://github.com"
+              href="https://github.com/glebvassiliev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sage/50 hover:text-cream transition-colors duration-200"
@@ -21,7 +21,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/gleb-vassiliev/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sage/50 hover:text-cream transition-colors duration-200"
