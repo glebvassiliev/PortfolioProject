@@ -1,25 +1,27 @@
-import ScrambledText from '../../UI/ScrambledText/ScrambledText'
+import GradientText from '../../UI/GradientText/GradientText'
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Minimal background - just subtle gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-dark via-charcoal/20 to-dark" />
-
-      {/* Hero Content - Centered */}
-      <div className="relative z-10 text-center px-4">
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-light tracking-tight text-cream">
-          <ScrambledText 
-            text="Gleb Vassiliev" 
-            className="font-mono"
-            speed={30}
-            fadeInDelay={200}
-          />
-        </h1>
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8"
+    >
+      {/* Hero Glass Panel */}
+      <div className="relative z-10 w-full max-w-5xl">
+        <div className="glass-effect rounded-3xl px-8 py-12 md:px-12 md:py-16 shadow-2xl shadow-black/30">
+          <GradientText
+            colors={['#274862', '#cfe7fc', '#70a6ce', '#76b3c8', '#ffffff']}
+            animationSpeed={5}
+            showBorder={false}
+            className="custom-class text-center text-6xl md:text-8xl lg:text-9xl font-light tracking-tight"
+          >
+            Gleb Vassiliev
+          </GradientText>
+        </div>
       </div>
 
       {/* Scroll Indicator - Minimal */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
         <div className="w-px h-12 bg-gradient-to-b from-sage to-transparent" />
       </div>
     </section>

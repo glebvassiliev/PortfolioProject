@@ -19,7 +19,13 @@
 
 @layer components {
   .glass-effect {
-    @apply bg-white/5 backdrop-blur-md border border-white/10;
+    /* Lightweight "glass" for large surfaces (no backdrop blur). */
+    @apply bg-white/5 border border-white/10;
+  }
+
+  .glass-effect-blur {
+    /* Use blur only for small UI (e.g. nav) to reduce scroll jank. */
+    @apply bg-white/5 backdrop-blur-sm border border-white/10;
   }
 
   .hover-lift {

@@ -2,8 +2,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="border-t border-charcoal mt-32">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="px-4 sm:px-6 lg:px-8 pb-24">
+      <div className="max-w-7xl mx-auto glass-effect rounded-3xl px-8 py-10 shadow-2xl shadow-black/25">
         <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           <div className="text-sage/50 text-sm font-light">
             © {currentYear} Gleb Vassiliev
